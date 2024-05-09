@@ -1,0 +1,67 @@
+body {
+    font-size: 19px;
+    font-family: Arial, sans-serif; /* Adding a fallback font family */
+}
+
+table {
+    width: 80%; /* Adjusted width for better visibility */
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: center; /* Center-aligning table content */
+}
+
+th, td {
+    border: 1px solid #cbcbcb; /* Adding border to all table cells */
+    padding: 10px; /* Increased padding for better spacing */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row background color for better readability */
+}
+
+form {
+    width: 50%; /* Adjusted width for better visibility */
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9; /* Light gray background for form */
+}
+
+.input-group {
+    margin-bottom: 20px; /* Adjusted margin for better spacing */
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px; /* Adjusted margin for better spacing */
+}
+
+.input-group input[type="text"], 
+.input-group input[type="file"] {
+    height: 30px;
+    width: calc(100% - 20px); /* Adjusted width for better alignment */
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Ensure padding and border don't affect element width */
+}
+
+.button-container {
+    text-align: center; /* Center-aligning the button */
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #5F9EA0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #2E8B57; /* Darker background color on hover */
+}

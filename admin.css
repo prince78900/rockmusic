@@ -1,0 +1,391 @@
+/* Global styles */
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    size-adjust: 1;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 1%;
+}
+
+nav {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: block;
+    margin-bottom: 20px; /* Add more space between list items */
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    transition: all .3s ease;
+    padding: 10px 20px; /* Add padding to increase clickable area */
+}
+
+nav ul li a:hover {
+    color: #ccc;
+    background-color: #0c0c0c; /* Add hover background color */
+}
+
+main {
+    text-align: center;
+    margin-left: 220px; /* Adjust margin to accommodate left navigation */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 150px auto 0; /* Adjust margin to fit between header and navigation */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container h2 {
+    font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.container span {
+    color: #cf2f2f;
+}
+
+/* Additional Styles */
+.products {
+    display: grid;
+    grid-gap: 5%;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); /* Adjusted width to make panels smaller */
+    justify-items: center;
+}
+
+/* Rest of your CSS styles... */
+
+
+/* Additional Styles */
+.back-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.laman {
+    background-color: #000000;
+    font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 1;
+    margin-top: 80px;
+    padding-top: 1%;
+    color: #ffffff;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-container h2 {
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    color: #e7e7e7;
+}
+
+.form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #262121;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.about-us {
+    background-color: #101010;
+    padding-bottom: 200px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.about-content {
+    flex: 1;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.about-content h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    color: #fff;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.about-image {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;   
+}
+
+sav {
+    text-align: right;
+    color: #fefefe;
+}
+
+sav a:hover {
+    color: #e9e5e5;
+}
+
+sav a {
+    color: #fcfbfb;
+    text-decoration: none;
+    transition: all .42s ease;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+}
+
+.navbar {
+    background-color: #5D0E41;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo img {
+    max-height: 75px;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #5D0E41;
+}
+
+.navbar a.active {
+    background-color: #4CAF50;
+}
+
+.navbar a:nth-child(n+2) {
+    margin-left: 10px;
+}
+
+.navbar a:last-child {
+    background-color: #d9534f; /* Logout button color */
+}
+
+
+
+body {
+    font-size: 19px;
+}
+table{
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+tr {
+    border-bottom: 1px solid #cbcbcb;
+}
+th, td{
+    border: none;
+    height: 30px;
+    padding: 2px;
+}
+tr:hover {
+    background: #F5F5F5;
+}
+
+form {
+    width: 45%;
+    margin: 50px auto;
+    text-align: left;
+    padding: 20px; 
+    border: 1px solid #bbbbbb; 
+    border-radius: 5px;
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #5F9EA0;
+    border: none;
+    border-radius: 5px;
+}
+.edit_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    background: #2E8B57;
+    color: white;
+    border-radius: 3px;
+}
+
+.del_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    color: white;
+    border-radius: 3px;
+    background: #800000;
+}
+.msg {
+    margin: 30px auto; 
+    padding: 10px; 
+    border-radius: 5px; 
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    width: 50%;
+    text-align: center;
+}
+
+.dashboard-container {
+    text-align: center;
+}
+
+.dashboard-container .stats {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.dashboard-container .box {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-container h1 {
+    color: #5D0E41;
+}
+
+.dashboard-container h2 {
+    color: #555;
+}
+
+.dashboard-container p {
+    font-size: 24px;
+    color: #666;
+}
+

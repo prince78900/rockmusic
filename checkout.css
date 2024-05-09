@@ -1,0 +1,575 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0%;
+    
+}
+.back-video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    
+
+}
+
+header {
+    text-align: center;
+
+        font-family: "New Rocker", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        size-adjust: 1;
+        
+        
+      
+      
+    background-color: #000000;
+    color: #ffffff;
+    padding: 1%;
+    text-align: center;
+    
+}
+
+
+nav ul {
+    text-align: center;
+    font-size: 29px;
+    list-style-type: none;
+   
+    padding: 0;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 60px;
+    
+}
+
+nav ul li a {
+    color: #f4f4f4;
+    text-decoration: none;
+    transition: all .42s ease;
+    
+}
+nav ul a:hover{
+    color: #313131;
+}
+main {
+    text-align: center;
+}
+
+body{
+    background-image:url(prince2/rocks.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.main-home{
+   
+        font-family: "New Rocker", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 25px;
+      
+      
+    color: #ffffff;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    
+    
+
+}
+
+
+h1 {
+    color: white !important;
+}
+
+.main-btn{
+    
+    border: 2px solid;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 5px 15px;
+    transition: all .42s ease;
+    
+      
+}
+.main-btn:hover{
+    background-color: #fdf8f8;
+    color: #000000;
+}
+
+.featured-products {
+    text-align: center;
+}
+
+
+/* guitar section css */
+.container h2{
+    
+        font-family: "New Rocker", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      
+    color: #ffffff;
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.container span{
+    color: #cf2f2f;
+}
+
+
+
+
+
+/* drum section */
+.products{
+        display: grid;
+        grid-gap: 5%;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        justify-items: center;
+      }
+
+    /* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 0; /* Remove bottom margin */
+}
+
+
+h1 {
+    color: white; /* Change the text color to white */
+}
+
+
+
+/* Rest of your existing CSS styles */
+
+/* Add hover effect to product cards */
+/* Add hover effect to product cards */
+.product-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow effect on hover */
+    transform: translateY(-5px); /* Move the card slightly up on hover */
+}
+
+/* Rest of your existing CSS styles */
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust the minimum and maximum width of each grid item */
+    grid-gap: 20px; /* Add some gap between grid items */
+    justify-items: center; /* Center the items horizontally */
+}
+
+.product-card {
+    width: calc(100% - 20px); /* Set the width of each grid item to 100% minus the grid gap */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff; /* Add a background color for each grid item */
+    box-sizing: border-box; /* Include padding and border in the total width */
+}
+
+.product-card img {
+    max-width: 100%; /* Make sure product images don't exceed the width of the card */
+    height: auto; /* Maintain aspect ratio of images */
+}
+
+.product-card h2,
+.product-card p {
+    color: black;
+}
+
+
+.product-card button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product-card button:hover {
+    background-color: #333;
+}
+
+
+
+
+.laman{
+    background-color: #000000;
+    font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 1;
+  margin-top: 80px;
+  padding-top: 1%;
+  color: #ffffff
+  
+  ;
+
+}
+
+main {
+    padding: 20px 0;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #262121;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #433535;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #946d6d;
+}
+
+contact-section {
+    background-color: #080808;
+    padding: 50px 0;
+  }
+  
+  .contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .contact-container h2 {
+    margin-bottom: 30px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    color: #e7e7e7;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #a88888;
+    border-radius: 5px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+    
+  .about-us {
+    background-color: #101010;
+    padding-bottom: 200px;
+    
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+    
+}
+
+.about-content {
+    flex: 1;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.about-content h2 {
+    color: #f1f1f1;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    color: #fff;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.about-image {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;   
+}
+      
+      
+      
+sav{
+    text-align: center;
+    color: #fefefe;
+}
+
+sav a:hover{
+    color: #796767;
+}
+
+sav a{
+    color: #fcfbfb;
+    text-decoration: none;
+    transition: all .42s ease;
+}
+
+
+
+.products-heading {
+    color: white;
+}
+
+
+/* Your existing CSS styles */
+/* Your existing CSS styles */
+.cart {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-items li {
+    color: rgb(0, 0, 0); /* Set text color to white */
+}
+
+.checkout-btn {
+    background-color: rgb(254, 250, 250);
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.checkout-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+body {
+    color: rgb(0, 0, 0);
+}
+
+/* Style for cart items */
+.cart-item {
+    margin-bottom: 20px;
+}
+
+.cart-item h3 {
+    margin-bottom: 5px;
+}
+
+  body {
+            color: rgb(0, 0, 0);
+        }
+
+        /* Style for cart items */
+        .cart-item {
+            margin-bottom: 20px;
+        }
+
+        .cart-item h3 {
+            margin-bottom: 5px;
+        }
+
+        /* Style for remove button */
+        .remove-btn {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        /* Style for checkout header */
+        .container h2 {
+            color: rgb(255, 255, 255);
+        }
+
+        .white-text {
+            color: white;
+        }
+        
+        .container h1{
+            color: white;
+        }
+
+        th {
+            color: black; /* Change the color to black */
+        }
+    
+        /* Style for the container */
+        .container {
+            color: rgb(255, 255, 255); /* Change the text color to white */
+        }
+
+        .rockmusic h1{
+            color: white; /* Change the text color to white */
+            text-align: center; /* Center the text */
+            font-size: 28px; /* Adjust font size */
+            margin-top: 20px; /* Add some top margin */
+        }
+
+        /* Styling for the table */
+table {
+    width: 80%; /* Adjust based on your layout */
+    margin: 20px auto; /* Center the table and add some margin */
+    border-collapse: collapse; /* Collapses the border lines between cells */
+    background-color: #fff; /* White background for the table */
+}
+
+th, td {
+    text-align: left;
+    padding: 8px; /* Padding inside cells */
+    border-bottom: 1px solid #ddd; /* Light border for readability */
+    color: #000; /* Black text color */
+}
+
+th {
+    background-color: #000; /* Black background for headers */
+    color: #fff; /* White text for headers */
+}
+
+/* Hover effect for rows */
+tr:hover {
+    background-color: #f1f1f1; /* Light grey background on hover */
+}
+
+/* Style for the "Remove" link */
+a {
+    color: #fafafa; /* Red color for the 'Remove' link */
+    text-decoration: none; /* No underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover for better interactivity */
+}
+
+/* Styling the checkout link */
+a[href="checkout.php"] {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #030303; /* Green background to match table headers */
+    color: white; /* White text */
+    text-align: center;
+    border-radius: 5px; /* Rounded corners */
+    font-weight: bold;
+}
+
+a[href="checkout.php"]:hover {
+    background-color: #61615d; /* Slightly darker green on hover */
+}
+
+
